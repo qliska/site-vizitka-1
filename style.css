@@ -1,8 +1,11 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
 * {
   box-sizing: border-box;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -14,11 +17,13 @@
   padding-top: 36px;
   padding-bottom: 200px;
 }
+
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
   width: 40px;
   height: 40px;
@@ -31,6 +36,7 @@
   color: #1A1A1A;
   font-weight: bold;
 }
+
 .navigation-holder {
   list-style-type: none;
   padding: 0;
@@ -38,6 +44,7 @@
   flex-grow: 1;
   justify-content: space-evenly;
 }
+
 .nav-links a {
   text-decoration: none;
   color: #D1D1D1;
@@ -51,6 +58,7 @@
   margin-bottom: 80px;
   position: relative;
 }
+
 .header-subtitle-text {
   display: inline-block;
   border-left: 1px solid #8C8C8C;
@@ -62,6 +70,7 @@
   letter-spacing: 1.5px;
   margin-bottom: 13px;
 }
+
 .header-title-text {
   font-size: 90px;
   font-weight: bold;
@@ -92,6 +101,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .card-info {
   max-width: 361px;
 }
@@ -99,6 +109,7 @@
 .card-info-img {
   display: flex;
 }
+
 .info-title {
   font-size: 20px;
   font-weight: bold;
@@ -107,6 +118,7 @@
   margin-top: 15px;
   margin-bottom: 4px;
 }
+
 .info-subtitle {
   font-size: 13px;
   color: #8C8C8C;
@@ -126,6 +138,7 @@
   letter-spacing: 1.5px;
   margin-bottom: 13px;
 }
+
 .about-desc {
   color: #D1D1D1;
   max-width: 240px;
@@ -137,7 +150,9 @@
   background-color: #242424;
   display: flex;
   margin-top: 61px;
+  width: 540px;
 }
+
 .audio-container {
   display: flex;
   align-items: center;
@@ -146,6 +161,7 @@
   position: relative;
   padding: 0 34px;
 }
+
 .play-btn {
   display: flex;
   background-color: blue;
@@ -167,6 +183,7 @@
   margin-bottom: 4px;
   text-align: center;
 }
+
 .about-subtitle {
   font-size: 13px;
   color: #8C8C8C;
@@ -175,3 +192,116 @@
   text-align: center;
   display: block;
 }
+
+.audio-detail {
+  flex: 1;
+}
+
+.control {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.control i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.audio-author {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.time {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+/* MAIN CONTENT */
+
+.course-section-title {
+  font-weight: 600;
+  font-size: 70px;
+  color: #1A1A1A;
+  margin: 60px 0;
+}
+.course-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.card-big {
+  width: 540px;
+}
+.card-small {
+  width: 360px;
+}
+
+.img-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.img-card-1 {background-image: url(/img/card-1.png);}
+
+.btn-time {
+  background-color: #fff;
+  border-radius: 5px;
+  color: #111;
+  padding: 6px 12px;
+  display: inline-block;
+  margin-right: 8px;
+}
+.btn-raiting {
+  width: 77px;
+  background-color: #111;
+  border-radius: 5px;
+  color: #fff;
+  padding: 6px 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.course-category {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #BABABA;
+  font-weight: 400;
+  margin: 18px 0;
+}
+.course-title {
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: #1A1A1A;
+  margin-bottom: 20px;
+}
+.course-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+}
+
+.img-card-2 {background-image: url(/img/card-2.png);}
+
